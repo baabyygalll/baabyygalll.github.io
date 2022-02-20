@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap');
+
+
+body {
+    font-family : 'Poppins', sans-serif;
+    background-image: linear-gradient(to right, #984D38 , #181E41);
+
+}
+
+nav.navbar {
+    background-image: linear-gradient(to right, #984D38 , #181E41);
+    margin-top : 15px;
+
+}
+
+li.nav-item {
+    margin : 0 15px
+}
+
+
+button.forbutton {
+    background-image: linear-gradient(to right, #EA5F5F , #EEAA55);
+    border : none;
+    border-radius : 50px;
+    width : 100px;
+
+}
+
+
+
+h1.identitas {
+    font-size : 67px;
+}
+
+
+a.talk {
+   text-decoration: none;
+   color: #EC8C59;
+}
+
+
+img.dira {
+    border-radius: 200px;
+    width: 380px;
+    height: 520px;
+    margin-top: 100px;
+    
+   
+}
+
+div.linkedin {
+    margin-left: 400px;
+    margin-top: 150px;
+}
+
+a.dribble {
+    margin-right: 200px;
+}
+
+section.aboutme {
+    margin-top: 200px;
+}
+
+img.about {
+    width: 300px;
+    height: 300px;
+   
+    
+}
+
+section.service {
+    margin-top: 200px;
+}
+
+button.buttonservc {
+    background-image: linear-gradient(to right, #EA5F5F , #EEAA55);
+    border : none;
+    border-radius : 50px;
+    width : 200px;
+    height: 200px;
+    margin: 0 50px;
+
+}
+
+section.portofolio {
+    margin-top: 200px;
+}
+
+img.minimarket {
+    border-radius: 40px;
+}
