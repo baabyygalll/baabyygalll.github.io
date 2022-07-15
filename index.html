@@ -30,7 +30,7 @@
                         <a class="nav-link" href="#portofolio">Portofolio</a>
                     </li>
                     <li class="nav-item">
-                       <a style="text-decoration: none;" href="https://mail.google.com/mail/u/0/#inbox?compose=new"><button class="nav-link forbutton btn">Contact</button></a> 
+                       <a style="text-decoration: none;" target="_blank" href="https://mail.google.com/mail/u/0/#inbox?compose=new"><button class="nav-link forbutton btn">Contact</button></a> 
                     </li>
                 </ul>
             
@@ -46,13 +46,35 @@
         <div class="h-100 d-flex align-items-center">
             <div class="container">
               <div class="row text-center text-lg-start">
+                
+<button onclick="topFunction()" id="myBtn" title="Go to top"><img src="./img/up-arrow.png"></img></button>
+
+<script>
+mybutton = document.getElementById("myBtn");
+
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}</script>
     
     
     <!-- Start Left Hero -->
     <div class="col-12 col-sm-6 text-white align-self-center order-1 order-lg-0" >
         <h1 class="identitas">Andira Azzahra <br> Front End <br> Developer</h1>
-        <p class="fw-light lh-lg">HELOO!!! <br> adipisicing elit. Itaque ad eius saepe nobis! Totam <br> est incidunt ea fugiat ut  laboriosam minus sequi natus odio, <br> eveniet voluptatibus animi accusamus unde aperiam?</p>
-        <a class="talk" href="#">Let's Talk -></a>
+        <p class="fw-light lh-lg">HELOO!!! <br> I am Dira, a computer science student who is interested in building websites and has experience being a front end web developer</p>
+        <a class="talk" href="https://github.com/baabyygalll" target="_blank">My Github -></a>
     
     </div>
     <!-- End Left Hero -->
@@ -70,7 +92,7 @@
     <!-- End Section Hero -->
 
     <!-- Start Section Icon -->
-    <div class="linkedin">
+    <div class="linkedin" id="about-me">
        <a href="https://dribbble.com/dirazzhr" class="dribble"> <img src="./img/dribbble-4 logo.png" alt=""></a>
        <a href="https://www.linkedin.com/in/andira-azzahra-6465831b6/"><img src="./img/path18.png" alt=""></a>
     </div>
@@ -89,10 +111,10 @@
             </div>
 
             <!-- Start Right -->
-            <div class="col-12 col-sm-6 align-self-center text-white" id="about-me">
+            <div class="col-12 col-sm-6 align-self-center text-white">
                 <h2>Bit about me</h2>
-                <p class="fw-light" >Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam totam, quasi nesciunt animi commodi rem harum voluptatem veritatis quas in necessitatibus praesentium cum error rerum voluptates temporibus quibusdam, provident unde.</p>
-               <a href="./my resume/andira azzahra-resume.pdf" download> <button class="forbutton btn text-white mt-3" style="width: 180px;">Download CV</button></a>
+                <p class="fw-light" >I am very enthusiastic about developing a front end web using Reactjs, bootstrap, graphql, html, css and several other frameworks and libraries</p>
+               <a href="./my resume/andira azzahra-cv fix.pdf" download> <button class="forbutton btn text-white mt-3" style="width: 180px;">Download CV</button></a>
             </div>
             <!-- End Right -->
         </div>
@@ -111,12 +133,12 @@
                     <button class="btn buttonservc">
                         <img class="img-fluid" src="./img/paint-brush.png" alt="" style="width: 35px;">
                         <p>Web Design</p>
-                        <p style="font-size: 7px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti, tempora! Quas fuga ipsa quia a. Quisquam iste error, officiis rem nam facere vitae temporibus molestiae impedit fuga. Reiciendis, obcaecati dignissimos.</p>
+                        <p style="font-size: 7px;">I usually make web designs using figma and the image source is from unsplash</p>
                     </button>
                     <button class="btn buttonservc">
                         <img class="img-fluid" src="./img/laptop.png" alt="" style="width:35px;">
                         <p>Web Development</p>
-                        <p  style="font-size: 7px;"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus praesentium aspernatur obcaecati, odio unde perspiciatis quae maiores maxime, quos ad sequi cumque omnis expedita optio vitae reiciendis, doloribus exercitationem modi!</p>
+                        <p  style="font-size: 7px;"> Create dynamic and interactive websites</p>
                     </button>
                 </div>
             </div>
@@ -131,7 +153,7 @@
         <div class="container" id="portofolio">
             <div class="row">
                 <h3>Latest Portofolio</h3>
-        <p class="fw-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum commodi ut non deleniti ea atque aliquam maxime placeat, a veniam possimus, corrupti dignissimos hic sed doloremque iste iure expedita pariatur.</p>
+        <p class="fw-light">Here are some examples of web and website designs that I have made</p>
 
                 <!-- Start 1st Column -->
                 <div class="col-12 col-sm-4">
